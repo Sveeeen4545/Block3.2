@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 28011388}
   - component: {fileID: 28011387}
   - component: {fileID: 28011386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Second Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 125446191}
   - component: {fileID: 125446190}
   - component: {fileID: 125446189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 234307085}
   - component: {fileID: 234307084}
   - component: {fileID: 234307083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 317791306}
   - component: {fileID: 317791305}
   - component: {fileID: 317791304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -717,7 +717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 452010288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -758,7 +758,7 @@ GameObject:
   - component: {fileID: 526145367}
   - component: {fileID: 526145366}
   - component: {fileID: 526145365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fourth Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1164,7 +1164,7 @@ GameObject:
   - component: {fileID: 783428254}
   - component: {fileID: 783428253}
   - component: {fileID: 783428252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 1300588800}
   - component: {fileID: 1300588799}
   - component: {fileID: 1300588798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1360,7 +1360,7 @@ GameObject:
   - component: {fileID: 1472604895}
   - component: {fileID: 1472604894}
   - component: {fileID: 1472604893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Third Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,7 +1457,7 @@ GameObject:
   - component: {fileID: 1579759387}
   - component: {fileID: 1579759386}
   - component: {fileID: 1579759385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 1737433405}
   - component: {fileID: 1737433404}
   - component: {fileID: 1737433403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: First Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1830,7 +1830,7 @@ MonoBehaviour:
   groundDIstance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!143 &1790689675
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1955,7 +1955,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853150416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1996,7 +1996,7 @@ GameObject:
   - component: {fileID: 1885750985}
   - component: {fileID: 1885750984}
   - component: {fileID: 1885750983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Road 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2094,7 +2094,7 @@ GameObject:
   - component: {fileID: 2030241525}
   - component: {fileID: 2030241524}
   - component: {fileID: 2030241523}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Park
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2422,7 +2422,7 @@ GameObject:
   - component: {fileID: 2086401958}
   - component: {fileID: 2086401957}
   - component: {fileID: 2086401956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Central Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2532,7 +2532,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119028260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
