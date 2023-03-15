@@ -5995,7 +5995,7 @@ GameObject:
   - component: {fileID: 1790689674}
   - component: {fileID: 1790689675}
   m_Layer: 0
-  m_Name: First Person Player
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7546,7 +7546,7 @@ PrefabInstance:
     - target: {fileID: 2174407674714808748, guid: c9d89ab31f1c31046917734cef700b0f,
         type: 3}
       propertyPath: m_Name
-      value: Frist Person Player
+      value: HumanSizeReference
       objectReference: {fileID: 0}
     - target: {fileID: 2174407674714808750, guid: c9d89ab31f1c31046917734cef700b0f,
         type: 3}
