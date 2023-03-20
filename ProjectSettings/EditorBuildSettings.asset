@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestingScenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Members/Sven.unity
+    guid: a1998d074d9f092438673921df69f612
+  - enabled: 1
+    path: Assets/Scenes/Members/Feebee.unity
+    guid: f17ae93f592884b49b774f8067260183
+  - enabled: 1
+    path: Assets/Scenes/Members/Gabe.unity
+    guid: 29bf15d270dd1d34b9f99131b20106a8
+  - enabled: 1
+    path: Assets/Scenes/Members/Madji.unity
+    guid: 5bd49abb8c2dc4f458c74a421f1758c8
+  - enabled: 1
+    path: Assets/Scenes/Members/Thorsten.unity
+    guid: 3c833b524639da349891e5c392e301fe
   m_configObjects: {}
