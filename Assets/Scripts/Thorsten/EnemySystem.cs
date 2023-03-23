@@ -55,12 +55,15 @@ public class EnemySystem : MonoBehaviour
 
     void Update()
     {
-        if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
-        }
+        var v3 = transform.forward;
+        v3.y = 0.0f;
 
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDIstance, groundMask);
+        //if (isGrounded && velocity.y < 0)
+        //{
+        //     velocity.y = -2f;
+        //}
+
+        //isGrounded = Physics.CheckSphere(groundCheck.position, groundDIstance, groundMask);
 
         transform.LookAt(Player);
 
