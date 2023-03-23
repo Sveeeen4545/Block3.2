@@ -161,7 +161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.009407338, y: 0.048888557}
   m_AnchorMax: {x: 0.98, y: 0.47530872}
-  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0.0000076294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &107919538
@@ -279,7 +279,7 @@ PrefabInstance:
     - target: {fileID: 1645628685708771979, guid: d5e69c2bcd7826f41852d3b1424fd69e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1645628686475271500, guid: d5e69c2bcd7826f41852d3b1424fd69e,
         type: 3}
@@ -589,7 +589,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -910.53424, y: 0}
+  m_SizeDelta: {x: -1379.1006, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &944719606
 MonoBehaviour:
@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a77a44596811348bb8087080f06771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  branchingCanvas: {fileID: 1323395315}
+  branchingCanvas: {fileID: 482204834}
   diaogPrefab: {fileID: 1595189748716094250, guid: b7213be316b763b4e9e65f55c1e6713d,
     type: 3}
   choicePrefab: {fileID: 1501925162977900660, guid: 137cef5dfed1fbb478455ac8fafe2fba,
@@ -1154,7 +1154,7 @@ GameObject:
   - component: {fileID: 1505226857}
   - component: {fileID: 1505226856}
   - component: {fileID: 1505226855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1749,7 +1749,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -910.53424, y: 0}
+  m_SizeDelta: {x: -1379.1006, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2010202864
 MonoBehaviour:
@@ -2111,6 +2111,7 @@ GameObject:
   - component: {fileID: 1280042438590036166}
   - component: {fileID: 1280042438590036167}
   - component: {fileID: 1280042438590036171}
+  - component: {fileID: 1280042438590036172}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -2132,7 +2133,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogValue: {fileID: 11400000, guid: dabd4abb710d5cf48a6d3987a173d067, type: 2}
   myDialog: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
-  branchingCanvas: {fileID: 1323395315}
+  branchingCanvas: {fileID: 482204834}
+--- !u!114 &1280042438590036172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280042438590036170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a77a44596811348bb8087080f06771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  branchingCanvas: {fileID: 482204834}
+  diaogPrefab: {fileID: 1595189748716094250, guid: b7213be316b763b4e9e65f55c1e6713d,
+    type: 3}
+  choicePrefab: {fileID: 1501925162977900660, guid: 137cef5dfed1fbb478455ac8fafe2fba,
+    type: 3}
+  dialogValue: {fileID: 11400000, guid: dabd4abb710d5cf48a6d3987a173d067, type: 2}
 --- !u!65 &1280042438909077544
 BoxCollider:
   m_ObjectHideFlags: 0
