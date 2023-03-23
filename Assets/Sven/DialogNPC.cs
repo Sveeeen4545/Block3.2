@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogNPC : MonoBehaviour
+public class DialogNPC : BranchingDialogController
 {
-    [SerializeField] private TextAssetValue dialogValue;
+    //[SerializeField] private TextAssetValue dialogValue;
     [SerializeField] private TextAsset myDialog;
-    [SerializeField] private GameObject branchingCanvas;
+    //[SerializeField] private GameObject branchingCanvas;
 
 
     // Start is called before the first frame update
@@ -29,11 +29,13 @@ public class DialogNPC : MonoBehaviour
             Debug.Log("tag collision is working");
             
                 //Debug.Log("Input is working");
-                branchingCanvas.SetActive(true);
+                //branchingCanvas.SetActive(true);
+            EnableCanvas();
                 dialogValue.value = myDialog;
-            
+            Cursor.lockState = CursorLockMode.None;
+
         }
-        
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -43,8 +45,11 @@ public class DialogNPC : MonoBehaviour
             Debug.Log("tag collision is off");
 
             //Debug.Log("Input is off");
-            branchingCanvas.SetActive(false);
+            //branchingCanvas.SetActive(false);
+            DisableCanvas();
             dialogValue.value = myDialog;
+            Cursor.lockState = CursorLockMode.Locked;
+
 
         }
     }

@@ -691,7 +691,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 20
   m_Viewport: {fileID: 1938767211}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 766715507}
@@ -943,7 +943,6 @@ GameObject:
   - component: {fileID: 1323395318}
   - component: {fileID: 1323395317}
   - component: {fileID: 1323395316}
-  - component: {fileID: 1323395320}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1033,24 +1032,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1323395320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323395315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a77a44596811348bb8087080f06771, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  branchingCanvas: {fileID: 482204834}
-  diaogPrefab: {fileID: 1595189748716094250, guid: b7213be316b763b4e9e65f55c1e6713d,
-    type: 3}
-  choicePrefab: {fileID: 1501925162977900660, guid: 137cef5dfed1fbb478455ac8fafe2fba,
-    type: 3}
-  dialogValue: {fileID: 11400000, guid: dabd4abb710d5cf48a6d3987a173d067, type: 2}
 --- !u!1 &1328165151
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,7 +2092,6 @@ GameObject:
   - component: {fileID: 1280042438590036166}
   - component: {fileID: 1280042438590036167}
   - component: {fileID: 1280042438590036171}
-  - component: {fileID: 1280042438590036172}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -2131,27 +2111,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b479422a8191bf44eb276886ec46e655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogValue: {fileID: 11400000, guid: dabd4abb710d5cf48a6d3987a173d067, type: 2}
-  myDialog: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
   branchingCanvas: {fileID: 482204834}
---- !u!114 &1280042438590036172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280042438590036170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4a77a44596811348bb8087080f06771, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  branchingCanvas: {fileID: 482204834}
-  diaogPrefab: {fileID: 1595189748716094250, guid: b7213be316b763b4e9e65f55c1e6713d,
+  dialogPrefab: {fileID: 1595189748716094250, guid: b7213be316b763b4e9e65f55c1e6713d,
     type: 3}
   choicePrefab: {fileID: 1501925162977900660, guid: 137cef5dfed1fbb478455ac8fafe2fba,
     type: 3}
   dialogValue: {fileID: 11400000, guid: dabd4abb710d5cf48a6d3987a173d067, type: 2}
+  dialogHolder: {fileID: 2010202862}
+  choiceholder: {fileID: 944719604}
+  dialogScroll: {fileID: 960460326}
+  myDialog: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
 --- !u!65 &1280042438909077544
 BoxCollider:
   m_ObjectHideFlags: 0
