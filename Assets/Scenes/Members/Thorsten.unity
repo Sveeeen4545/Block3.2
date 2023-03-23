@@ -985,16 +985,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b50ea6217636124fbcdf75e65221981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
-  MaxDist: 10
-  MinDist: 1
+  player: {fileID: 7855406262491919255}
   rb: {fileID: 219270829}
-  groundCheck: {fileID: 1459565426}
-  groundDIstance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
+  speed: 10
+  multiplier: 10
+  speed_limit: 2
 --- !u!1 &221407333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,16 +1744,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b50ea6217636124fbcdf75e65221981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
-  MaxDist: 10
-  MinDist: 1
+  player: {fileID: 7855406262491919255}
   rb: {fileID: 383403230}
-  groundCheck: {fileID: 1459565426}
-  groundDIstance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
+  speed: 10
+  multiplier: 10
+  speed_limit: 2
 --- !u!54 &383403230
 Rigidbody:
   m_ObjectHideFlags: 0
