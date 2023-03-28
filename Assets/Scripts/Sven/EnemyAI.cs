@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EmenyAI : MonoBehaviour
+public class EnemyAI : MonoBehaviour
 {
     NavMeshAgent agent;
-    //public Transform[] waypoints;
     private int waypointIndex;
     private Vector3 target;
     public List<Transform> waypoints2 = new List<Transform>();
     public Transform audioQueNewTarget;
-    public bool waypointAdioReached = false;
+    public bool isTriggerdQue = true;
 
 
     // Start is called before the first frame update
@@ -28,9 +27,15 @@ public class EmenyAI : MonoBehaviour
         {
             IterateWaypointIndex();
             UpdateDestination();
-            if(Vector3.Distance(transform.position, target) == 3)
+            if(waypointIndex == 3 && isTriggerdQue)
             {
-                AddMoreWaypoints();
+                //AddAudioQueWaypoint();
+                waypoints2.Add(audioQueNewTarget);
+                isTriggerdQue = false;
+            }
+            if(waypointIndex == 2)
+            {
+                waypoints2.Remove(audioQueNewTarget);
             }
         }
     }
@@ -49,7 +54,7 @@ public class EmenyAI : MonoBehaviour
             waypointIndex = 0;
         }
     }
-    void AddMoreWaypoints()
+    void AddAudioQueWaypoint()
     {
         waypoints2.Add(audioQueNewTarget);
     }
