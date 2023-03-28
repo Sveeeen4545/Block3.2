@@ -5,37 +5,40 @@ using UnityEngine;
 public class EnemySystem : MonoBehaviour
 {
 
-    /* bool lookat = false;
-     public GameObject player;
-     public Rigidbody rb;
-     public float speed = 10;
-     public float multiplier = 10;
-     public float speed_limit = 2;
+    bool lookat = false;
+    public GameObject player;
+    public Rigidbody rb;
+    public float speed = 10;
+    public float multiplier = 10;
+    public float speed_limit = 2;
 
-     private void start()
-     {
-         rb = GetComponent<Rigidbody>();
-     }
+    private void start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
-     // Update is called once per frame
-     void Update()
-     {
-         if (PlayerDetection.found)
-         {
-             lookat = true;
-         }
-         if (lookat)
-         {
-             transform.LookAt(player.transform);
+    // Update is called once per frame
+    void Update()
+    {
+        if (PlayerDetection.found)
+        {
+            lookat = true;
+        }
+        if (lookat)
+        {
+            transform.LookAt(player.transform);
             // Vector3 vel = velocity;
-             if (!PlayerDetection.found)
-             {
-                 rb.AddForce(speed * transform.forward);
-             }
-         }
-     }*/
+            if (!PlayerDetection.found)
+            {
+                //rb.AddForce(speed * transform.forward);
+                var v3 = transform.forward;
+                v3.y = 0.0f;
+            }
+        }
+    }
+}
 
-    public Transform Player;
+    /*public Transform Player;
     public int MoveSpeed = 100;
     public int MaxDist = 10;
     public int MinDist = 1;
@@ -81,5 +84,4 @@ public class EnemySystem : MonoBehaviour
 
         }
     }
-}
-
+} */
