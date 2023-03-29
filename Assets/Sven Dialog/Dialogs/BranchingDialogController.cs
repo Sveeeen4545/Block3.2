@@ -85,7 +85,6 @@ public class BranchingDialogController : MonoBehaviour
     {
         yield return null;
         dialogScroll.verticalNormalizedPosition = 0f;
-
     }
 
     void MakeNewDialog(string newDialog)

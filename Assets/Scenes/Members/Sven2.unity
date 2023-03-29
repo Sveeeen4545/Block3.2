@@ -569,7 +569,7 @@ PrefabInstance:
     - target: {fileID: 1645628686475271502, guid: d5e69c2bcd7826f41852d3b1424fd69e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1645628686475271502, guid: d5e69c2bcd7826f41852d3b1424fd69e,
         type: 3}
@@ -1164,12 +1164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d447f17859f628408edb44deebcc852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
-  waypointIndex: 0
-  target: {x: 0, y: 0, z: 0}
-  waypoints2: []
-  audioQueNewTarget: {fileID: 0}
-  isTriggerdAudioQue: 0
 --- !u!1 &828162501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2349,6 +2343,12 @@ Transform:
   m_Father: {fileID: 1641786349}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1438890412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1645628685708771979, guid: d5e69c2bcd7826f41852d3b1424fd69e,
+    type: 3}
+  m_PrefabInstance: {fileID: 311017329}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1462848625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3649,6 +3649,7 @@ MonoBehaviour:
   dialogHolder: {fileID: 2010202862}
   choiceholder: {fileID: 944719604}
   dialogScroll: {fileID: 960460326}
+  cameraLookScript: {fileID: 1438890412}
   myDialog: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
 --- !u!65 &1280042438909077544
 BoxCollider:

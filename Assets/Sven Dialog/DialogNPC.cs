@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DialogNPC : BranchingDialogController
 {
+    public GameObject cameraLookScript;
+
     //[SerializeField] private TextAssetValue dialogValue;
     [SerializeField] private TextAsset myDialog;
     //[SerializeField] private GameObject branchingCanvas;
@@ -27,13 +29,14 @@ public class DialogNPC : BranchingDialogController
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("tag collision is working");
-            
-                //Debug.Log("Input is working");
-                //branchingCanvas.SetActive(true);
-            EnableCanvas();
-                dialogValue.value = myDialog;
-            Cursor.lockState = CursorLockMode.None;
 
+            //Debug.Log("Input is working");
+            //branchingCanvas.SetActive(true);
+            EnableCanvas();
+            dialogValue.value = myDialog;
+            Debug.Log("Cursor locked none");
+            Cursor.lockState = CursorLockMode.None;
+            cameraLookScript.GetComponent<MouseLook>().enabled = false;
         }
 
     }
@@ -48,8 +51,9 @@ public class DialogNPC : BranchingDialogController
             //branchingCanvas.SetActive(false);
             DisableCanvas();
             dialogValue.value = myDialog;
+            Debug.Log("Cursor locked");
             Cursor.lockState = CursorLockMode.Locked;
-
+            cameraLookScript.GetComponent<MouseLook>().enabled = true;
 
         }
     }
