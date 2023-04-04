@@ -28,7 +28,7 @@ public class DialogNPC : BranchingDialogController
         Debug.Log("Is colliding");
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("tag collision is working");
+            Debug.Log("Input is working");
 
             //Debug.Log("Input is working");
             //branchingCanvas.SetActive(true);
