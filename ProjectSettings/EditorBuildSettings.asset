@@ -29,4 +29,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InsideBuilding.unity
     guid: c576cc9f5906e7c43bf2b8d88dffb21f
+  - enabled: 1
+    path: Assets/Scenes/Members/Thorsten 1.unity
+    guid: 9ed2e20442738af4e9673bbe62be672e
+  - enabled: 1
+    path: Assets/Scenes/InsideTownHall.unity
+    guid: 2c70ba74c6c0f804fa8baa3e154ba226
+  - enabled: 1
+    path: Assets/Scenes/InsideLibrary.unity
+    guid: 4cd28ade84782c94cb43bb62e2ff7c4a
+  - enabled: 1
+    path: Assets/Scenes/InsideMall.unity
+    guid: c89462c92d985e94e9f4ecf90b59bf2e
+  - enabled: 1
+    path: Assets/Scenes/InsideBikeShop.unity
+    guid: a2bfcdd602207b549a591c9cb4af5685
+  - enabled: 1
+    path: Assets/Scenes/InsideApartment.unity
+    guid: 15fe7614ebf59744a86f3600783b322f
+  - enabled: 1
+    path: Assets/Scenes/InsideWarehouse.unity
+    guid: ea92eb4c5dfef1a459507b31d9b1897c
+  - enabled: 1
+    path: Assets/Scenes/InsideSafehouse.unity
+    guid: 663f7aaaebfa1a9488b280a289d4d0ff
   m_configObjects: {}
