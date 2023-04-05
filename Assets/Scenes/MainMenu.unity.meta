@@ -1,6 +1,11 @@
 fileFormatVersion: 2
-guid: 1ab717e6399485e4b98ddd2f902644bf
+<<<<<<<< Updated upstream:Assets/Scenes/MainMenu.unity.meta
+guid: fc3ac9fea66de504abe475520d0d8295
 DefaultImporter:
+========
+guid: 0c2ac1d3f2a58d845a12c1f7cb48923c
+PrefabImporter:
+>>>>>>>> Stashed changes:Assets/Prefabs/Thorsten/Road 5 (1).prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
