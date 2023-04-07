@@ -3192,7 +3192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
+  MoveSpeed: 3
   MaxDist: 10
   MinDist: 1
   rb: {fileID: 219270829}
@@ -4419,7 +4419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
+  MoveSpeed: 3
   MaxDist: 10
   MinDist: 1
   rb: {fileID: 383403230}
@@ -8947,7 +8947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
+  MoveSpeed: 3
   MaxDist: 10
   MinDist: 1
   rb: {fileID: 819750349}
@@ -9408,7 +9408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
+  MoveSpeed: 3
   MaxDist: 10
   MinDist: 1
   rb: {fileID: 843007689}
@@ -13735,7 +13735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
+  MoveSpeed: 3
   MaxDist: 10
   MinDist: 1
   rb: {fileID: 1217927967}
@@ -15919,7 +15919,7 @@ PrefabInstance:
     - target: {fileID: 6118751947890060765, guid: 6417e86e0a5832b479269ff840439e4e,
         type: 3}
       propertyPath: MoveSpeed
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6118751947890060765, guid: 6417e86e0a5832b479269ff840439e4e,
         type: 3}
@@ -20800,7 +20800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 7855406262491919253}
-  MoveSpeed: 4
+  MoveSpeed: 3
   MaxDist: 10
   MinDist: 1
   rb: {fileID: 1796799201}
@@ -21333,7 +21333,7 @@ PrefabInstance:
     - target: {fileID: 6118751947890060765, guid: 6417e86e0a5832b479269ff840439e4e,
         type: 3}
       propertyPath: MoveSpeed
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6118751947890060765, guid: 6417e86e0a5832b479269ff840439e4e,
         type: 3}

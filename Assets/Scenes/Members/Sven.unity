@@ -7247,6 +7247,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuStall
       objectReference: {fileID: 0}
+    - target: {fileID: 3589781658881548514, guid: 2c9cceca4edb46a43912bc4ccc88ed3c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589781658881548514, guid: 2c9cceca4edb46a43912bc4ccc88ed3c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07
+      objectReference: {fileID: 0}
     - target: {fileID: 3589781659252607462, guid: 2c9cceca4edb46a43912bc4ccc88ed3c,
         type: 3}
       propertyPath: menuScreen
