@@ -46,6 +46,7 @@ public class EnemySystem : MonoBehaviour
     public Transform groundCheck;
     public float groundDIstance = 0.4f;
     public LayerMask groundMask;
+    public string ThorstenOne;
 
 
     void Start()

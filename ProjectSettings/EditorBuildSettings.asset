@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/InsideBuilding.unity
     guid: c576cc9f5906e7c43bf2b8d88dffb21f
   - enabled: 1
-    path: Assets/Scenes/Members/Thorsten 1.unity
+    path: Assets/Scenes/Members/ThorstenOne.unity
     guid: 9ed2e20442738af4e9673bbe62be672e
   - enabled: 1
     path: Assets/Scenes/InsideTownHall.unity

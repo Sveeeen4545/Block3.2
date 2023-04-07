@@ -553,7 +553,7 @@ PrefabInstance:
     - target: {fileID: 8569665626950476766, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: buildingNameRoomEnter
-      value: Thorsten 1
+      value: ThorstenOne
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c700a00725210db4e921a220a3c1abf4, type: 3}

@@ -240,6 +240,12 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &6832043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6118751947890060762, guid: 6417e86e0a5832b479269ff840439e4e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1453263874}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9439181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3195,6 +3201,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  ThorstenOne: 
 --- !u!1 &219997572 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f6167ac7f76e84f8aeaf2b84f7fd4b,
@@ -3654,12 +3661,12 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250855676}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.64819336
+  m_Height: 2.1929684
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -0.026489258, y: 0.010736465, z: 0}
 --- !u!23 &250855679
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4421,6 +4428,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  ThorstenOne: 
 --- !u!54 &383403230
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5994,12 +6002,12 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478129073}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.67463684
+  m_Height: 2.3800836
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.007799387, z: 0.017786026}
 --- !u!23 &478129076
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8948,6 +8956,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  ThorstenOne: 
 --- !u!1001 &825571501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9343,6 +9352,7 @@ GameObject:
   - component: {fileID: 843007688}
   - component: {fileID: 843007690}
   - component: {fileID: 843007689}
+  - component: {fileID: 843007691}
   m_Layer: 0
   m_Name: Enemy (5)
   m_TagString: Untagged
@@ -9407,6 +9417,20 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  ThorstenOne: 
+--- !u!114 &843007691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843007687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f2b5cc7db6b4a429de4875f573e630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThorstenOne: ThorstenOne
 --- !u!1 &847292166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f6167ac7f76e84f8aeaf2b84f7fd4b,
@@ -13720,6 +13744,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  ThorstenOne: 
 --- !u!1001 &1220102194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15806,6 +15831,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1121452698}
     m_Modifications:
+    - target: {fileID: 6118751947283615632, guid: 6417e86e0a5832b479269ff840439e4e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6118751947890060762, guid: 6417e86e0a5832b479269ff840439e4e,
         type: 3}
       propertyPath: m_Name
@@ -15915,6 +15945,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6118751947979915955, guid: 6417e86e0a5832b479269ff840439e4e,
+        type: 3}
+      propertyPath: m_Height
+      value: 2.252016
+      objectReference: {fileID: 0}
+    - target: {fileID: 6118751947979915955, guid: 6417e86e0a5832b479269ff840439e4e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.5859833
+      objectReference: {fileID: 0}
+    - target: {fileID: 6118751947979915955, guid: 6417e86e0a5832b479269ff840439e4e,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.054272175
+      objectReference: {fileID: 0}
+    - target: {fileID: 6118751947979915955, guid: 6417e86e0a5832b479269ff840439e4e,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.006187439
+      objectReference: {fileID: 0}
+    - target: {fileID: 6118751947979915955, guid: 6417e86e0a5832b479269ff840439e4e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6118751947890060767, guid: 6417e86e0a5832b479269ff840439e4e, type: 3}
@@ -18774,6 +18829,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1453263874}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1676060143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6832043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f2b5cc7db6b4a429de4875f573e630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThorstenOne: ThorstenOne
 --- !u!1 &1680575533
 GameObject:
   m_ObjectHideFlags: 0
@@ -20741,6 +20809,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  ThorstenOne: 
 --- !u!1 &1800779939 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 56a903737f84c37498cd329946575201,
@@ -24664,7 +24733,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135451410}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
