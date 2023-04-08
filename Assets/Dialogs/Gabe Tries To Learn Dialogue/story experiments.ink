@@ -1,4 +1,4 @@
-- I looked at Monsieur Fogg 
-*   ...and I sucked his dick.
-- we passed the day in silence.
+- "Get out! You don't belong here and we don't want you."
+*   "Leave me alone!"
+- "LEAVE! NOW!"
 - -> END
