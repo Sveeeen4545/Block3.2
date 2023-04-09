@@ -10,7 +10,7 @@ public class MenuScript : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("Thorsten 1");
+        SceneManager.LoadScene("ThorstenOne");
     }
 
     public void SettingsPanelEnable()

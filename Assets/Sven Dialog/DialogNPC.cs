@@ -25,11 +25,10 @@ public class DialogNPC : BranchingDialogController
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Is colliding");
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Input is working");
-
+            Debug.Log("Is colliding");
             //Debug.Log("Input is working");
             //branchingCanvas.SetActive(true);
             EnableCanvas();
