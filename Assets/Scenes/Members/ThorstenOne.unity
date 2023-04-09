@@ -9299,7 +9299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 686702571}
-  MenuName: 
+  MenuName: MainMenu
 --- !u!114 &555410736
 MonoBehaviour:
   m_ObjectHideFlags: 0
