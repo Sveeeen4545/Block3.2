@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/RestartScene.unity
     guid: 68d595b8a7c4e7d41a6c6122515e697e
   - enabled: 1
+    path: Assets/Scenes/Members/Sven3.unity
+    guid: e0043a95b852cd04fa8c6fdca4ce5cad
+  - enabled: 1
     path: Assets/Scenes/Members/Gabe.unity
     guid: 29bf15d270dd1d34b9f99131b20106a8
   - enabled: 1
