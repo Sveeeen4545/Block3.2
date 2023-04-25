@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideTownHall
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &68531195
 BoxCollider:
@@ -7891,7 +7891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideWarehouse
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &468539980
 BoxCollider:
@@ -8937,7 +8937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideBikeShop
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &515064442
 BoxCollider:
@@ -21940,7 +21940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideLibrary
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &1244227407
 BoxCollider:
@@ -23543,7 +23543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideMall
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &1358401869
 BoxCollider:
@@ -26470,7 +26470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideSafehouse
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &1534530586
 BoxCollider:
@@ -33513,7 +33513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideApartment
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &1838622504
 BoxCollider:
@@ -38315,7 +38315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideWarehouse
-  transition: {fileID: 0}
+  transition: {fileID: 5581790626469440410}
   transitionTime: 1
 --- !u!65 &2106009215
 BoxCollider:
