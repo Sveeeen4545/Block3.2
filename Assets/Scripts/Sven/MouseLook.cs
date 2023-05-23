@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MouseLook : MonoBehaviour
 {
@@ -21,6 +22,14 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Gamepad.all.Count > 0)
+        {
+            mouseSensitivity = 1000f;
+        }
+        else
+        {
+            mouseSensitivity = 100f;
+        }
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 

@@ -23,9 +23,9 @@ public class DialogNPC : BranchingDialogController
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && Input.GetButtonDown("Check"))
         {
             Debug.Log("Input is working");
             Debug.Log("Is colliding");
