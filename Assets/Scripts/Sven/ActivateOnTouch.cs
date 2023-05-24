@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class ActivateOnTouch : MonoBehaviour
 {
-    DialogTesting dialogTesting;
-
-    public GameObject DialogBox;
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
-            DialogBox.SetActive(true);
+            DialogTesting.Instance.StartDialog();
         }
     }
 
@@ -19,7 +16,7 @@ public class ActivateOnTouch : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            DialogBox.SetActive(false);
+            DialogTesting.Instance.HideDialog();
         }
     }
 }
