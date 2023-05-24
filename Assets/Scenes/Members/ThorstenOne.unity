@@ -20244,7 +20244,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1121452698
 Transform:
   m_ObjectHideFlags: 0
@@ -40774,6 +40774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   playerBody: {fileID: 7855406262491919253}
+  deadzone: 0.1
 --- !u!1 &7855406261714933809
 GameObject:
   m_ObjectHideFlags: 0
