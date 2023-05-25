@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
+    //Animation of noteblock
+
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
@@ -17,9 +19,15 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    //Animation of noteblock
+    public Animator m_Animator;
+    public bool NotepadToFront = true;
+    public bool NotepadToSide = false;
+
     // Update is called once per frame
     void Update()
     {
+        //check if the player is grounded
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDIstance, groundMask);
 
         if (isGrounded && velocity.y < 0)
@@ -27,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = -2f;
         }
 
+        //Axis for the input system
         float x = Input.GetAxis("HorizontalMove");
         float z = Input.GetAxis("VerticalMove");
 
@@ -34,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
+        //Jumping method
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
@@ -42,5 +52,31 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Notepad") && NotepadToFront)
+        {
+            m_Animator.SetBool("GoToFront", true);
+            m_Animator.SetBool("GoToSide", false);
+            NotepadToFront = false;
+            NotepadToSide = true;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Notepad") && NotepadToSide)
+        {
+            m_Animator.SetBool("GoToFront", false);
+            m_Animator.SetBool("GoToSide", true);
+            NotepadToFront = true;
+            NotepadToSide = false;
+        }
+
+
+
     }
+
+
+
+    //m_Animator.SetBool("Jump", true);
+
+
 }
