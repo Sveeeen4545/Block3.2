@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     //Animation of noteblock
     public Animator m_Animator;
     public bool NotepadToFront = true;
-    public bool NotepadToSide = false;
 
     // Update is called once per frame
     void Update()
@@ -58,16 +57,14 @@ public class PlayerMovement : MonoBehaviour
             m_Animator.SetBool("GoToFront", true);
             m_Animator.SetBool("GoToSide", false);
             NotepadToFront = false;
-            NotepadToSide = true;
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Notepad") && NotepadToSide)
+        if (Input.GetKeyDown(KeyCode.Tab) || Input.GetButtonDown("Notepad") && !NotepadToFront)
         {
             m_Animator.SetBool("GoToFront", false);
             m_Animator.SetBool("GoToSide", true);
             NotepadToFront = true;
-            NotepadToSide = false;
         }
 
 
