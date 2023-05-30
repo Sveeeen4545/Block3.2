@@ -19,6 +19,8 @@ public class DialogTesting : MonoBehaviour
     [SerializeField] private TextMeshProUGUI[] texts;
     [SerializeField] private string[] names;
     [SerializeField] private string[] lines;
+    [SerializeField] public TextMeshProUGUI textComponent;
+
 
     private void Awake()
     {
@@ -35,9 +37,9 @@ public class DialogTesting : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) || Input.GetButtonDown("Check"))
         {
-            AdvanceDialogue();
+            //AdvanceDialogue();
       
-            /*      
+               
             if(textComponent.text == lines[index])
             {
                 NextLine();
@@ -47,10 +49,11 @@ public class DialogTesting : MonoBehaviour
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
-            */
+            
         }
     }
 
+   /* 
     private void AdvanceDialogue()
     {
         if (index < lines.Length - 1)
@@ -68,6 +71,7 @@ public class DialogTesting : MonoBehaviour
             HideDialog();
         }
     }
+   */
 
     public void StartDialog()
     {
@@ -104,7 +108,7 @@ public class DialogTesting : MonoBehaviour
 
     void NextLine()
     {
-        /*
+        
         if(index < lines.Length - 1)
         {
             index++;
@@ -115,6 +119,6 @@ public class DialogTesting : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-        */
+        
     }
 }

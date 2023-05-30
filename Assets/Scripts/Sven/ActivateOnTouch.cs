@@ -8,7 +8,7 @@ public class ActivateOnTouch : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            DialogTesting.Instance.StartDialog();
+            NewDialogue.Instance.StartDialogue();
         }
     }
 
@@ -16,7 +16,7 @@ public class ActivateOnTouch : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            DialogTesting.Instance.HideDialog();
+            NewDialogue.Instance.HideDialogue();
         }
     }
 }
