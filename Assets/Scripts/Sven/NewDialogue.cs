@@ -29,7 +29,7 @@ public class NewDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetButtonDown("Check"))
         {
             if (textComponent.text == lines[index])
             {
