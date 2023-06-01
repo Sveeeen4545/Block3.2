@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     //Animation of noteblock
 
     public float speed = 12f;
+    public float sprintingSpeed;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -46,6 +47,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        //Sprinting
+        if (Input.GetButton("Sprint") || Input.GetButton("SprintController"))
+        {
+            controller.Move(move * speed * 1.5f * Time.deltaTime);
         }
 
         velocity.y += gravity * Time.deltaTime;
