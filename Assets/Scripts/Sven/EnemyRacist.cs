@@ -6,7 +6,7 @@ public class EnemyRacist : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
     public AudioClip[] shoutingLines;
-    private int shoutIndex = 0;
+    [SerializeField] private int shoutIndex = 0;
 
     [Header ("How much lines there is to schout")]
     public int maxShouting = 2;
@@ -26,32 +26,28 @@ public class EnemyRacist : MonoBehaviour
     IEnumerator shoutingIntervalse()
     {
         Debug.Log("Works1");
-        Debug.Log("Works2");
         audioSource.clip = shoutingLines[shoutIndex];
+        audioSource.Play();
         shoutIndex++;
         yield return new WaitForSeconds(2f);
         if (shoutingLines.Length < maxShouting)
-        {
-            
-        }
-        else
         {
             shoutIndex = 0;
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider player)
     {
-        if (other.CompareTag("Player"))
+        if (player.CompareTag("Player"))
         {
             shoutIndex = 0;
             StartCoroutine(shoutingIntervalse());
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider player)
     {
-        if (other.CompareTag("Player"))
+        if (player.CompareTag("Player"))
         {
             shoutIndex = 0;
             StopCoroutine(shoutingIntervalse());
