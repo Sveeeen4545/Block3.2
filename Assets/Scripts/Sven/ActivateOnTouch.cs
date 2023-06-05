@@ -6,9 +6,9 @@ public class ActivateOnTouch : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            DialogTesting.Instance.StartDialog();
+            NewDialogue.Instance.StartDialogue();
         }
     }
 
@@ -16,7 +16,7 @@ public class ActivateOnTouch : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            DialogTesting.Instance.HideDialog();
+            NewDialogue.Instance.HideDialogue();
         }
     }
 }

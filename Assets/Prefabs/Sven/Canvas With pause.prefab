@@ -686,7 +686,6 @@ GameObject:
   - component: {fileID: 4224886034924390339}
   - component: {fileID: 4224886034924390340}
   - component: {fileID: 4224886034924390341}
-  - component: {fileID: 4224886034924390337}
   - component: {fileID: 4224886034924390336}
   m_Layer: 5
   m_Name: Canvas With pause
@@ -777,22 +776,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4224886034924390337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4224886034924390342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f75768bdd6d193840858bb7e8a6a5db6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BookButton: {fileID: 0}
-  MenuButton: {fileID: 0}
-  BookPanel: {fileID: 0}
-  MenuPanel: {fileID: 0}
 --- !u!114 &4224886034924390336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -806,7 +789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 4224886035350762580}
-  MenuName: 
+  MenuName: MainMenu
 --- !u!1 &4224886035350762580
 GameObject:
   m_ObjectHideFlags: 0
