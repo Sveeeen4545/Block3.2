@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("Notepad") && NotepadToFront)
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetButtonDown("NotepadOpen") && NotepadToFront)
         {
             m_Animator.SetBool("GoToFront", true);
             m_Animator.SetBool("GoToSide", false);
@@ -69,7 +69,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Tab) || Input.GetButtonDown("Notepad") && !NotepadToFront)
+
+        if (Input.GetKeyDown(KeyCode.Tab) || Input.GetButtonDown("NotepadClose") && !NotepadToFront)
         {
             m_Animator.SetBool("GoToFront", false);
             m_Animator.SetBool("GoToSide", true);
