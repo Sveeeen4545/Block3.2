@@ -501,6 +501,8 @@ MonoBehaviour:
   sprintingSpeed: 0
   gravity: -19.62
   jumpHeight: 0
+  player: {fileID: 4136625243637294246}
+  targetPosition: {x: 0, y: 0, z: 0}
   groundCheck: {fileID: 7914150562238241260}
   groundDIstance: 0.4
   groundMask:
