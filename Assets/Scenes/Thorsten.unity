@@ -5850,6 +5850,10 @@ MonoBehaviour:
   buildingNameRoomEnter: InsideWarehouse
   transition: {fileID: 78694963}
   transitionTime: 1.5
+  player: {fileID: 0}
+  xPosition: 0
+  yPosition: 0
+  zPosition: 0
 --- !u!65 &312111143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13690,6 +13694,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50c7bbe2849bc6244a9c2f7094846fb4, type: 3}
+--- !u!4 &760148936 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4136625243637294246, guid: 50c7bbe2849bc6244a9c2f7094846fb4,
+    type: 3}
+  m_PrefabInstance: {fileID: 760148935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &767959449
 GameObject:
   m_ObjectHideFlags: 0
@@ -15074,6 +15084,10 @@ MonoBehaviour:
   buildingNameRoomEnter: InsideMall
   transition: {fileID: 78694963}
   transitionTime: 1.5
+  player: {fileID: 0}
+  xPosition: 0
+  yPosition: 0
+  zPosition: 0
 --- !u!65 &858324429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20050,6 +20064,10 @@ MonoBehaviour:
   buildingNameRoomEnter: InsideBikeShop
   transition: {fileID: 78694963}
   transitionTime: 1.5
+  player: {fileID: 0}
+  xPosition: 0
+  yPosition: 0
+  zPosition: 0
 --- !u!65 &1122254084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20841,7 +20859,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.3
+  m_Intensity: 0.4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -24818,75 +24836,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459565425}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1461260021
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8865463432995018688, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogStallTesting (Works)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -144.65768
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 273.89877
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 8865463432995018689, guid: 95f33d1d4ee4fc74084c7a1f07f52b47,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 95f33d1d4ee4fc74084c7a1f07f52b47, type: 3}
 --- !u!1 &1463570965
 GameObject:
   m_ObjectHideFlags: 0
@@ -26820,6 +26769,10 @@ MonoBehaviour:
   buildingNameRoomEnter: InsideTownHall
   transition: {fileID: 78694963}
   transitionTime: 1.5
+  player: {fileID: 0}
+  xPosition: 0
+  yPosition: 0
+  zPosition: 0
 --- !u!65 &1586682128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34990,6 +34943,10 @@ MonoBehaviour:
   buildingNameRoomEnter: InsideLibrary
   transition: {fileID: 78694963}
   transitionTime: 1.5
+  player: {fileID: 760148936}
+  xPosition: -14
+  yPosition: -6
+  zPosition: 13
 --- !u!65 &1944873695
 BoxCollider:
   m_ObjectHideFlags: 0

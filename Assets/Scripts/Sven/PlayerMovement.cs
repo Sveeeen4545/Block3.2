@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public float sprintingSpeed;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    [SerializeField] private Transform player;
+    [SerializeField] private Vector3 targetPosition;
 
     public Transform groundCheck;
     public float groundDIstance = 0.4f;
@@ -73,6 +75,13 @@ public class PlayerMovement : MonoBehaviour
             m_Animator.SetBool("GoToSide", true);
             NotepadToFront = true;
         }
+
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            player.position = targetPosition;
+        }
+
 
 
 

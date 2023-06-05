@@ -11,6 +11,17 @@ public class EnterBuilding : MonoBehaviour
 
     public float transitionTime = 1.5f;
 
+    public Transform player;
+
+    public float xPosition;
+    public float yPosition;
+    public float zPosition;
+
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -27,6 +38,10 @@ public class EnterBuilding : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(buildingNameRoomEnter);
+
+        yield return new WaitForSeconds(1f);
+
+        player.position = new Vector3(xPosition, yPosition, zPosition);
     }
 
 
