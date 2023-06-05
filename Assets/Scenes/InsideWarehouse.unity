@@ -12774,13 +12774,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
+      propertyPath: lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
+        type: 3}
       propertyPath: lines.Array.data[0]
-      value: testing testing
+      value: "The man from the safe house told me you\u2019d be coming. Your ID is
+        safely in my office - take it and run while the others are distracted."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[1]
-      value: testing testing? testing testing testing testing. testing! super testing.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578696, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
