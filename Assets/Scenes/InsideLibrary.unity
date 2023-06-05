@@ -14126,7 +14126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956988399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.517, y: -6.26, z: 19.55}
+  m_LocalPosition: {x: -13.517, y: -6.26, z: 20.01}
   m_LocalScale: {x: 2.00737, y: 3.3617, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14148,6 +14148,10 @@ MonoBehaviour:
   buildingNameRoomEnter: Thorsten
   transition: {fileID: 559290772709907013}
   transitionTime: 1.5
+  player: {fileID: 1229781294}
+  xPosition: -136
+  yPosition: 2.5
+  zPosition: 245
 --- !u!1 &965716599
 GameObject:
   m_ObjectHideFlags: 0
@@ -19852,17 +19856,17 @@ PrefabInstance:
     - target: {fileID: 4136625243637294246, guid: 50c7bbe2849bc6244a9c2f7094846fb4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.359797
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 4136625243637294246, guid: 50c7bbe2849bc6244a9c2f7094846fb4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.3
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 4136625243637294246, guid: 50c7bbe2849bc6244a9c2f7094846fb4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.457186
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4136625243637294246, guid: 50c7bbe2849bc6244a9c2f7094846fb4,
         type: 3}
@@ -19906,6 +19910,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50c7bbe2849bc6244a9c2f7094846fb4, type: 3}
+--- !u!4 &1229781294 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4136625243637294246, guid: 50c7bbe2849bc6244a9c2f7094846fb4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229781293}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1262050776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29555,6 +29565,10 @@ MonoBehaviour:
   buildingNameRoomEnter: ThorstenOne
   transition: {fileID: 559290772709907013}
   transitionTime: 1.5
+  player: {fileID: 1229781294}
+  xPosition: 0
+  yPosition: 0
+  zPosition: 0
 --- !u!65 &8569665626211634558
 BoxCollider:
   m_ObjectHideFlags: 0
