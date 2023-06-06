@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RestartScene.unity
     guid: 68d595b8a7c4e7d41a6c6122515e697e
+  - enabled: 1
+    path: Assets/Scenes/ThorstenFromTownHall.unity
+    guid: 08e52c75b87cd474d98cb32049b2e700
+  - enabled: 1
+    path: Assets/Scenes/ThorstenFromSafehouse.unity
+    guid: 973165538149fd34ba08409c3719d175
   m_configObjects: {}

@@ -1898,7 +1898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a410bcad41461f74c80fce491c1c8d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingNameRoomEnter: Thorsten
+  buildingNameRoomEnter: ThorstenFromTownHall
   transition: {fileID: 378651385}
   transitionTime: 1.5
 --- !u!65 &872796818

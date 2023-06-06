@@ -404,7 +404,7 @@ PrefabInstance:
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
@@ -416,19 +416,32 @@ PrefabInstance:
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[1]
+      value: "The townspeople here can be quite hostile to immigrants, and it looks
+        like they\u2019ve picked you as a target. We\u2019re taking steps to protect
+        you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
+        type: 3}
+      propertyPath: lines.Array.data[2]
       value: "We need to get you to a safer place. To do that, you\u2019re going
         to need your workplace ID so you can immediately get a job at a new location."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
-      propertyPath: lines.Array.data[2]
+      propertyPath: lines.Array.data[3]
       value: "You\u2019re also going to want to pick up a bike so you can follow
         us out of town, and any easily packed luggage. We\u2019ll get the rest to
         you in due time."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
-      propertyPath: lines.Array.data[3]
+      propertyPath: lines.Array.data[4]
+      value: "You left your kid at the library? Go pick them up as well, we can\u2019t
+        leave your kids behind."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
+        type: 3}
+      propertyPath: lines.Array.data[5]
       value: Good luck, stay safe.
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578696, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
@@ -3052,7 +3065,7 @@ PrefabInstance:
     - target: {fileID: 8569665626950476766, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: buildingNameRoomEnter
-      value: ThorstenOne
+      value: ThorstenFromSafehouse
       objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476767, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
