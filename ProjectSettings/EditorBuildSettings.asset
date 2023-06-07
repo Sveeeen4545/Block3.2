@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThorstenFromWarehouse.unity
     guid: 65cd490fa5415e9428f1b12f383acc20
+  - enabled: 1
+    path: Assets/Scenes/InsideSafehouseAgain.unity
+    guid: d426dceef696bc5459470d670ef36439
   m_configObjects: {}
