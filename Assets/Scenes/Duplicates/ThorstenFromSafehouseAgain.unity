@@ -14713,10 +14713,21 @@ PrefabInstance:
     - target: {fileID: 8895061627763103106, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: m_text
-      value: 'Rude Man
+      value: 'Bad Man
+
 
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895061627763103106, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895061627763103106, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578676, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
