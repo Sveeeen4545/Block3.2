@@ -53,4 +53,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThorstenFromBikeShop.unity
     guid: b1e4946172595904a869b4a9dc47f85b
+  - enabled: 1
+    path: Assets/Scenes/ThorstenFromMall.unity
+    guid: cf5b32108a852e34f8137f9c9ff32824
+  - enabled: 1
+    path: Assets/Scenes/ThorstenFromSafehouseAgain.unity
+    guid: 643d606f886c2ef489cb5e55edc948fe
+  - enabled: 1
+    path: Assets/Scenes/ThorstenFromWarehouse.unity
+    guid: 65cd490fa5415e9428f1b12f383acc20
   m_configObjects: {}

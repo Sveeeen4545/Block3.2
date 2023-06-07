@@ -6920,7 +6920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a410bcad41461f74c80fce491c1c8d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingNameRoomEnter: Thorsten
+  buildingNameRoomEnter: ThorstenFromWarehouse
   transition: {fileID: 559290772395163795}
   transitionTime: 1.5
 --- !u!65 &915083699
@@ -19057,7 +19057,7 @@ PrefabInstance:
     - target: {fileID: 1282589789619128522, guid: 234b88613caa1a444a3e68adcd47ee29,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.619995
+      value: 11.44
       objectReference: {fileID: 0}
     - target: {fileID: 1282589789619128522, guid: 234b88613caa1a444a3e68adcd47ee29,
         type: 3}
@@ -19067,7 +19067,7 @@ PrefabInstance:
     - target: {fileID: 1282589789619128522, guid: 234b88613caa1a444a3e68adcd47ee29,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.488278
+      value: -6.692
       objectReference: {fileID: 0}
     - target: {fileID: 1282589789619128522, guid: 234b88613caa1a444a3e68adcd47ee29,
         type: 3}
