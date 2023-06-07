@@ -293,7 +293,6 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Derek
 
-
 '
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578676, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
@@ -3057,6 +3056,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e0e7a6092fd9d82468b69d1fe1d43609, type: 2}
+    - target: {fileID: 8569665626950476765, guid: c700a00725210db4e921a220a3c1abf4,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3.2724311
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569665626950476765, guid: c700a00725210db4e921a220a3c1abf4,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -1.1362152
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569665626950476765, guid: c700a00725210db4e921a220a3c1abf4,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -2.4081835e-16
+      objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476766, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: transition
@@ -3090,7 +3104,7 @@ PrefabInstance:
     - target: {fileID: 8569665626950476767, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.46
+      value: -8.6
       objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476767, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
