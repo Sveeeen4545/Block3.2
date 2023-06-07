@@ -13,7 +13,7 @@ public class IntroScript : MonoBehaviour
 
     IEnumerator WaitForIntroToFinish()
     {
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(36f);
         Debug.Log("Intro is working");
         SceneManager.LoadScene("InsideApartment1");
     }

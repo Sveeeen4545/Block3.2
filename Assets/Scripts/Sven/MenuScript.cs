@@ -11,6 +11,11 @@ public class MenuScript : MonoBehaviour
 
     public GameObject pauseFirstButton, optionsFirstButton, optionsCloseButton;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     public void PlayButton()
     {
         SceneManager.LoadScene("InsideApartment");

@@ -403,40 +403,37 @@ PrefabInstance:
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[0]
-      value: "Come in, come in. Take a moment to rest if you need, we have drinks
-        and food if you need it. Once you\u2019re rested though, you need to get
-        on the move."
+      value: "You\u2019ve returned. I see you have everything you need - we can head
+        out as soon as you\u2019re ready."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[1]
-      value: "The townspeople here can be quite hostile to immigrants, and it looks
-        like they\u2019ve picked you as a target. We\u2019re taking steps to protect
-        you."
+      value: "You want to try and talk to the townspeople? That\u2019s admirable,
+        but you\u2019d need a strong persuasive power to be able to convince them
+        to tolerate you."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[2]
-      value: "We need to get you to a safer place. To do that, you\u2019re going
-        to need your workplace ID so you can immediately get a job at a new location."
+      value: "They\u2019re pretty stuck in their ways."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[3]
-      value: "You\u2019re also going to want to pick up a bike so you can follow
-        us out of town, and any easily packed luggage. We\u2019ll get the rest to
-        you in due time."
+      value: "Still, if you want to try, you know where to find them. Maybe they\u2019ll
+        even give you a fair chance before they resume their anger."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[4]
-      value: "You left your kid at the library? Go pick them up as well, we can\u2019t
-        leave your kids behind."
+      value: "It\u2019d be a win for all of us if you did this\u2026give it your
+        best shot."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
@@ -1038,6 +1035,121 @@ Light:
   m_Color: {r: 0.9716981, g: 0.9493002, b: 0.82869345, a: 1}
   m_Intensity: 130
   m_Range: 50
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &518515185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 518515186}
+  - component: {fileID: 518515188}
+  - component: {fileID: 518515187}
+  m_Layer: 0
+  m_Name: Spot Light (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &518515186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518515185}
+  m_LocalRotation: {x: 0.071849436, y: 0.99527127, z: -0.064629264, w: 0.00979448}
+  m_LocalPosition: {x: 83.64, y: 36.98, z: 59.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1904389619}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 7.473, y: 179.41, z: 8.22}
+--- !u!114 &518515187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518515185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+--- !u!108 &518515188
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518515185}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0.9716981, g: 0.9493002, b: 0.82869345, a: 1}
+  m_Intensity: 130
+  m_Range: 70
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2897,6 +3009,7 @@ Transform:
   - {fileID: 499202696}
   - {fileID: 618732296}
   - {fileID: 1133892612}
+  - {fileID: 518515186}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3059,17 +3172,17 @@ PrefabInstance:
     - target: {fileID: 8569665626950476765, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: m_Size.x
-      value: 3.2724311
+      value: 2.2526865
       objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476765, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: m_Center.x
-      value: -1.1362152
+      value: -0.626343
       objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476765, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: m_Center.z
-      value: -2.4081835e-16
+      value: -9.971981e-17
       objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476766, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
@@ -3079,7 +3192,7 @@ PrefabInstance:
     - target: {fileID: 8569665626950476766, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: buildingNameRoomEnter
-      value: ThorstenFromSafehouse
+      value: ThorstenFromSafehouseAgain
       objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476767, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
@@ -3104,7 +3217,7 @@ PrefabInstance:
     - target: {fileID: 8569665626950476767, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.6
+      value: -8.46
       objectReference: {fileID: 0}
     - target: {fileID: 8569665626950476767, guid: c700a00725210db4e921a220a3c1abf4,
         type: 3}
