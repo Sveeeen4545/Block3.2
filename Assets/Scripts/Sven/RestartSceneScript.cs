@@ -17,6 +17,6 @@ public class RestartSceneScript : MonoBehaviour
     public void RestartButton()
     {
         Cursor.lockState = CursorLockMode.None;
-        SceneManager.LoadScene("ThorstenOne");
+        SceneManager.LoadScene("Thorsten");
     }
 }
