@@ -24,6 +24,14 @@ public class EnemyVision : MonoBehaviour
                 case "ThorstenFromLibrary":
                     SceneManager.LoadScene("RestartSceneFromLibrary");
                     break;
+
+                case "ThorstenFromBikeShop":
+                    SceneManager.LoadScene("RestartSceneFromBikeShop");
+                    break;
+
+                case "ThorstenFromSafehouse":
+                    SceneManager.LoadScene("RestartSceneFromSafehouse");
+                    break;
             }
         }
     }

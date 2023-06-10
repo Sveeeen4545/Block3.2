@@ -16804,8 +16804,8 @@ PrefabInstance:
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
       propertyPath: lines.Array.data[3]
-      value: de of town. *Far* outside of town. can talk this out privately, perhaps
-        outside of town. *Far* outside of town.
+      value: "Why don\u2019t you come with us, and we can talk this out privately,
+        perhaps outside of town. *Far* outside of town."
       objectReference: {fileID: 0}
     - target: {fileID: 8895061627880578677, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
         type: 3}
