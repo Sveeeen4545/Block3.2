@@ -133,15 +133,51 @@ PrefabInstance:
     - target: {fileID: 1878235645065474142, guid: 4f93aa76b0651b3489f2c9ca1bef270b,
         type: 3}
       propertyPath: m_text
-      value: '
-
-
-        Credits:
-
-
-
-
-'
+      value: "\n\n<size=40%>After talking to the townspeople and informing them of
+        their struggles, the protagonist finally helped them see how difficult of
+        a process immigration can be. They were able to move in to their new life
+        without trouble and begin the next chapter of their life.\n\nThe protagonist
+        is not alone in their struggles. Make others feel welcome as well. Be kind
+        and caring and above all else, be open minded.</size=40%>\n\n<u><b>Credits</b></u>\n\n<size=50%>FITTING
+        IN: A game by Sven, Fabiana, Gabriel, Thorsten and Majdi.</size=50%>\n\n<b><u>ART
+        DESIGN</b></u>\n\n<size=75%><b>MODELING AND CONCEPT ART</b></size>\n<size=50%>Fabi\xE1na
+        H\xEDskov\xE1\nSven Wierenga\nThorsten Hazenberg\nGabriel Boros\nMajdi Stenvers</size>\n\n<size=75%><b>ENVIRONMENT
+        AND LEVEL DESIGN</b></size>\n<size=50%>Fabi\xE1na H\xEDskov\xE1\nSven Wierenga\nGabriel
+        Boros\nThorsten Hazenberg\n</size>\n\n<size=75%><b>UI/UX DESIGN</b></size>\n<size=50%>Fabi\xE1na
+        H\xEDskov\xE1\nSven Wierenga\nThorsten Hazenberg\n</size>\n\n<size=75%><b>ANIMATIONS</b></size>\n<size=50%>Sven
+        Wierenga\nFabi\xE1na H\xEDskov\xE1\n</size>\n\n<size=75%><b>LIGHTING AND
+        VISIBILITY</b></size>\n<size=50%>\nSven Wierenga\nGabriel Boros\n</size>\n\n<b><u><size=85%>UNITY
+        AND PROGRAMMING</b></u></size>\n\n<size=75%><b>CODING</b></size>\n<size=50%>Sven
+        Wierenga\nThorsten Hazenberg\n</size>\n\n<size=75%><b>MAP CREATION</b></size>\n<size=50%>Gabriel
+        Boros\nSven Wierenga\nThorsten Hazenberg\n</size>\n\n<size=75%><b>TESTING
+        AND BUG FIXING</b></size>\n<size=50%>Sven Wierenga\nGabriel Boros\nThorsten
+        Hazenberg\n</size>\n\n<size=75%><b>PROTOTYPING AND CONCEPTING</b></size>\n<size=50%>Sven
+        Wierenga\nThorsten Hazenberg\n</size>\n\n<b><u>ADDITIONAL EXTERNAL WORK</b></u></size>\n\n<size=75%><b>RESEARCH
+        AND DEVELOPMENT</b></size>\n<size=50%>Gabriel Boros\nSven Wierenga\nThorsten
+        Hazenberg\nMajdi Stenvers\nFabi\xE1na H\xEDskov\xE1\n</size>\n\n<size=75%><b>FEEDBACK
+        COLLECTION</b></size>\n<size=50%>Fabi\xE1na H\xEDskov\xE1\nSven Wierenga\nGabriel
+        Boros\nThorsten Hazenberg\nMajdi Stenvers\n</size>\n\n<size=75%><b>MUSIC
+        AND SOUND</b></size>\n<size=50%>Thorsten Hazenberg\nSven Wierenga\n</size>\n\n<size=75%><b>ADDITIONAL
+        DESIGN CONCEPTS AND IDEAS</b></size>\n<size=50%>Thorsten Hazenburg\nSven
+        Wierenga\nGabriel Boros\nFabi\xE1na H\xEDskov\xE1\nMajdi Stenvers</size>\n\n<size=75%><b>SPECIAL
+        THANKS</b></size>\n<size=50%>Various Mental Illnesses\nDomino's\nMajdi's
+        Debit Card\nAll of our Testers\nRacism</size>\n\n\n\n\n<b>THANK YOU SO MUCH
+        FOR PLAYING OUR GAME!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878235645065474142, guid: 4f93aa76b0651b3489f2c9ca1bef270b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878235645065474142, guid: 4f93aa76b0651b3489f2c9ca1bef270b,
+        type: 3}
+      propertyPath: m_margin.w
+      value: 16.676758
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878235645065474142, guid: 4f93aa76b0651b3489f2c9ca1bef270b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 1878235645065474209, guid: 4f93aa76b0651b3489f2c9ca1bef270b,
         type: 3}
@@ -307,6 +343,7 @@ GameObject:
   - component: {fileID: 1612173259}
   - component: {fileID: 1612173258}
   - component: {fileID: 1612173257}
+  - component: {fileID: 1612173260}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -380,6 +417,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1612173260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612173256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2039438487
 GameObject:
   m_ObjectHideFlags: 0
