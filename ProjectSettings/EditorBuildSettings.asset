@@ -86,4 +86,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RestartSceneFromWarehouse.unity
     guid: 15ce93ae7384c0a4282e31b9433f9d4e
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 64fe4b2db2e177c47b02dbddfb76675a
   m_configObjects: {}
