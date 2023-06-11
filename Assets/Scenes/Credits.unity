@@ -160,9 +160,8 @@ PrefabInstance:
         AND SOUND</b></size>\n<size=50%>Thorsten Hazenberg\nSven Wierenga\n</size>\n\n<size=75%><b>ADDITIONAL
         DESIGN CONCEPTS AND IDEAS</b></size>\n<size=50%>Thorsten Hazenburg\nSven
         Wierenga\nGabriel Boros\nFabi\xE1na H\xEDskov\xE1\nMajdi Stenvers</size>\n\n<size=75%><b>SPECIAL
-        THANKS</b></size>\n<size=50%>Various Mental Illnesses\nDomino's\nMajdi's
-        Debit Card\nAll of our Testers\nRacism</size>\n\n\n\n\n<b>THANK YOU SO MUCH
-        FOR PLAYING OUR GAME!"
+        THANKS</b></size>\n<size=50%>Domino's\nAll of our Testers\n</size>\n\n\n\n\n<b>THANK
+        YOU SO MUCH FOR PLAYING OUR GAME!"
       objectReference: {fileID: 0}
     - target: {fileID: 1878235645065474142, guid: 4f93aa76b0651b3489f2c9ca1bef270b,
         type: 3}
