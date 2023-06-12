@@ -148,8 +148,8 @@ PrefabInstance:
         Wierenga\nFabi\xE1na H\xEDskov\xE1\n</size>\n\n<size=75%><b>LIGHTING AND
         VISIBILITY</b></size>\n<size=50%>\nSven Wierenga\nGabriel Boros\n</size>\n\n<b><u><size=85%>UNITY
         AND PROGRAMMING</b></u></size>\n\n<size=75%><b>CODING</b></size>\n<size=50%>Sven
-        Wierenga\nThorsten Hazenberg\n</size>\n\n<size=75%><b>MAP CREATION</b></size>\n<size=50%>Gabriel
-        Boros\nSven Wierenga\nThorsten Hazenberg\n</size>\n\n<size=75%><b>TESTING
+        Wierenga\nThorsten Hazenberg\nGabriel Boros\n</size>\n\n<size=75%><b>MAP
+        CREATION</b></size>\n<size=50%>Gabriel Boros\nSven Wierenga\nThorsten Hazenberg\n</size>\n\n<size=75%><b>TESTING
         AND BUG FIXING</b></size>\n<size=50%>Sven Wierenga\nGabriel Boros\nThorsten
         Hazenberg\n</size>\n\n<size=75%><b>PROTOTYPING AND CONCEPTING</b></size>\n<size=50%>Sven
         Wierenga\nThorsten Hazenberg\n</size>\n\n<b><u>ADDITIONAL EXTERNAL WORK</b></u></size>\n\n<size=75%><b>RESEARCH
@@ -160,7 +160,7 @@ PrefabInstance:
         AND SOUND</b></size>\n<size=50%>Thorsten Hazenberg\nSven Wierenga\n</size>\n\n<size=75%><b>ADDITIONAL
         DESIGN CONCEPTS AND IDEAS</b></size>\n<size=50%>Thorsten Hazenburg\nSven
         Wierenga\nGabriel Boros\nFabi\xE1na H\xEDskov\xE1\nMajdi Stenvers</size>\n\n<size=75%><b>SPECIAL
-        THANKS</b></size>\n<size=50%>Domino's\nAll of our Testers\n</size>\n\n\n\n\n<b>THANK
+        THANKS</b></size>\n<size=50%>All of our Testers\nAnd Supporters\n</size>\n\n\n\n\n<b>THANK
         YOU SO MUCH FOR PLAYING OUR GAME!"
       objectReference: {fileID: 0}
     - target: {fileID: 1878235645065474142, guid: 4f93aa76b0651b3489f2c9ca1bef270b,
