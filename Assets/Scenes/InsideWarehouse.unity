@@ -223,8 +223,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.6609955, z: 0.4388852}
-  m_Center: {x: 0, y: 0.6433196, z: 1.2378795}
+  m_Size: {x: 1, y: 0.99338245, z: 0.49250412}
+  m_Center: {x: 0, y: -0.013789177, z: 0.012255669}
 --- !u!1001 &15143605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1854,6 +1854,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: scaffolding3.0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d1b1e1325e72fe44a46cf963b25a6e2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1b1e1325e72fe44a46cf963b25a6e2, type: 3}
 --- !u!1 &201791540 stripped
@@ -1965,6 +1970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: scaffolding3.0 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d1b1e1325e72fe44a46cf963b25a6e2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1b1e1325e72fe44a46cf963b25a6e2, type: 3}
@@ -4066,6 +4076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: scaffolding_corner2.0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 91a03405b407a624db9ebe62eb28680c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91a03405b407a624db9ebe62eb28680c, type: 3}
@@ -9840,6 +9855,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: scaffolding3.0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d1b1e1325e72fe44a46cf963b25a6e2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1b1e1325e72fe44a46cf963b25a6e2, type: 3}
 --- !u!1 &886707538 stripped
@@ -10920,6 +10940,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: scaffolding3.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d1b1e1325e72fe44a46cf963b25a6e2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1b1e1325e72fe44a46cf963b25a6e2, type: 3}
@@ -13404,6 +13429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: scaffolding3.0 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d1b1e1325e72fe44a46cf963b25a6e2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1b1e1325e72fe44a46cf963b25a6e2, type: 3}
@@ -18129,6 +18159,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: scaffolding_corner2.0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 91a03405b407a624db9ebe62eb28680c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91a03405b407a624db9ebe62eb28680c, type: 3}
 --- !u!1 &1686114810 stripped
@@ -18863,6 +18898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: scaffolding3.0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d1b1e1325e72fe44a46cf963b25a6e2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d1b1e1325e72fe44a46cf963b25a6e2, type: 3}
 --- !u!1 &1754523886 stripped
@@ -19044,6 +19084,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: scaffolding_corner2.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 91a03405b407a624db9ebe62eb28680c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91a03405b407a624db9ebe62eb28680c, type: 3}
@@ -23111,7 +23156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148324344089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.504875, y: 5.5386977, z: 4.2593007}
+  m_LocalPosition: {x: -62.04, y: 6.171, z: 5.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23671,8 +23716,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652248112035}
-  - component: {fileID: 14169511}
   - component: {fileID: 14169509}
+  - component: {fileID: 14169511}
   m_Layer: 0
   m_Name: ID
   m_TagString: Untagged
@@ -25217,7 +25262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149485496610348}
   m_LocalRotation: {x: -0.5044197, y: 0.495541, z: 0.49554098, w: 0.50441957}
-  m_LocalPosition: {x: -94.3, y: 0.61, z: 1.21}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9548942, y: 54.18284, z: 31.117643}
   m_ConstrainProportionsScale: 0
   m_Children: []
