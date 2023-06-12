@@ -1565,7 +1565,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sven\nGabe\nThorsten\nFabi\xE1na\nMajdi"
+  m_text: 'Sven
+
+    Gabe
+
+    Thorsten
+
+    Fabiana
+
+    Majdi'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ca58a9f50cc65640a684e8b4d3b06ca, type: 2}
   m_sharedMaterial: {fileID: -2525987303965127927, guid: 8ca58a9f50cc65640a684e8b4d3b06ca,
