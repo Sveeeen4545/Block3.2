@@ -1676,6 +1676,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasDialogue (Works)
       objectReference: {fileID: 0}
+    - target: {fileID: 8895061627977225953, guid: 4ec61338b8a39cf48b67b2d0ea41e07f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dabd5fff1dcc4a14189b155c9eee2991,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec61338b8a39cf48b67b2d0ea41e07f, type: 3}
 --- !u!1 &849412071
