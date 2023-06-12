@@ -19063,7 +19063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideMall
   transition: {fileID: 78694963}
-  transitionTime: 1.5
+  transitionTime: 0.5
 --- !u!65 &1211695201
 BoxCollider:
   m_ObjectHideFlags: 0

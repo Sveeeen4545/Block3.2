@@ -29789,7 +29789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideLibrary
   transition: {fileID: 78694963}
-  transitionTime: 1.5
+  transitionTime: 0.5
 --- !u!65 &1944873695
 BoxCollider:
   m_ObjectHideFlags: 0

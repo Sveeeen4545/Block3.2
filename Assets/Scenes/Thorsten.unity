@@ -22248,7 +22248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingNameRoomEnter: InsideTownHall
   transition: {fileID: 78694963}
-  transitionTime: 1.5
+  transitionTime: 0.5
 --- !u!65 &1586682128
 BoxCollider:
   m_ObjectHideFlags: 0
