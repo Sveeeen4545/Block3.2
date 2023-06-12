@@ -4084,6 +4084,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ' Dialogue Prefab'
       objectReference: {fileID: 0}
+    - target: {fileID: 8623265763380396673, guid: 0d42482ec80ad05418296cd20d6fd71f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b62728bbc766663448d465d08c2189fe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d42482ec80ad05418296cd20d6fd71f, type: 3}
 --- !u!1 &1095462137
